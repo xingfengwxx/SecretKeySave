@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello World!"
+        />
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func1"
+        android:onClick="func1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func2"
+        android:onClick="func2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func3"
+        android:onClick="func3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func4"
+        android:onClick="func4"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func5"
+        android:onClick="func5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="func6"
+        android:onClick="func6"
+        />
+</LinearLayout>
